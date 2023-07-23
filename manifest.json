@@ -1,0 +1,20 @@
+{
+  "manifest_version":2,
+  "version":"1.0",
+  "name":"Discogs sort with shipping",
+  "content_scripts":[
+    {
+    "matches":["https://www.discogs.com/sell/*"],
+    "js":["jquery-3.7.0.min.js","main.js"]
+    }
+  ],
+  "icons": {
+    "32": "32.png"
+  },
+  "browser_action":{
+    "default_icon":{
+      "32":"32.png"
+    }
+   }
+}
+  
